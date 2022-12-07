@@ -1,0 +1,19 @@
+{
+  "name": "bad-apple-answer-sheet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "extract-frames": "ffmpeg -i \"./badapple.mp4\" \"./frames/f-%d.png\"",
+    "render": "ffmpeg -framerate 30 -start_number 1 -i ./render-frames/f-%d.png ./output.mp4"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@my-jimp/plugin-resize": "^0.16.11",
+    "@resvg/resvg-js": "^2.2.0",
+    "jimp": "^0.16.2",
+    "jsdom": "^20.0.3"
+  }
+}
