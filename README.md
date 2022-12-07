@@ -17,7 +17,6 @@ From this [video](https://youtu.be/FatVbGjDuHg). This is a NodeJS program that t
 You can simply run the `do.sh` or `do.bat` if you're on Windows.
 
 ### How it works
-You can simply run the `do.sh` or `do.bat` if you're on Windows.
 
 ```mermaid
 graph LR
